@@ -1,0 +1,20 @@
+.footer {
+  height: 120px;
+  background: #000;
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  @media (max-width: 768px) {
+    font-size: 12px;
+    flex-direction: column;
+  }
+  .media_icons {
+    margin-right: 10px;
+    .icon {
+      color: #fff;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}

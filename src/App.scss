@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* полоса прокрутки (скроллбар) */
+  ::-webkit-scrollbar {
+    width: 5px; /* ширина для вертикального скролла */
+    background-color: #eeeeee;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #b39ddb;
+    border-radius: 9em;
+    // box-shadow: inset 1px 1px 10px #1a237e;
+  }
+}
+body {
+  background-image: url("./static/images/bg.jpg");
+  background-size: cover;
+}
+#root {
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: #1976d2;
+  font-size: inherit;
+  &:hover {
+    color: #1a237e;
+  }
+}
+p {
+  line-height: 1.5;
+}

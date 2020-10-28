@@ -1,0 +1,19 @@
+.menu {
+  display: block;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+  .link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    &:hover {
+      color: #1565c0;
+    }
+  }
+  .active {
+    color: #ffca28;
+  }
+}

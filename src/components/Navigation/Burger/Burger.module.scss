@@ -1,0 +1,17 @@
+.menu__container {
+  .burger__menu {
+    display: block;
+    @media screen and (min-width: 769px) {
+      display: none;
+    }
+    .icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      color: #fff;
+      &:hover {
+        color: #1565c0;
+        cursor: pointer;
+      }
+    }
+  }
+}
